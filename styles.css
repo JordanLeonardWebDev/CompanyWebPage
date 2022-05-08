@@ -1,18 +1,41 @@
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: underline;
-  }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+  /* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
   h1{
     display: flex;
     justify-content: space-around;
     text-decoration: underline;
+    margin-top: 100px;
   }
 
   h2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-decoration: underline;
+  }
+
+  
+
+  .row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
 
   h4{
@@ -23,4 +46,35 @@
   footer{
     display: flex;
     justify-content: space-around;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width:100%;
+  }
+  
+  li {
+    float: right;
+      border-right: 1px solid #bbb;
+  }
+
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
