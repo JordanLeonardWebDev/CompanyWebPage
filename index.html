@@ -5,77 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
     <title>Company Web Page</title>
 </head>
 <body>
     <!--HTML word frame built-->
     <div class="container">
       <img src="Cover.webp" alt="Construction Staff" style="width:100%;">
-      <div class="top-right">Top Right</div>  
+      <div class="top-right">Infinite Construction</div>  
     </div>
   
   
     <div class="nav">
       <ul>
-        <li><a href="Contact Us">Contact Us</a></li>
-        <li><a href="Our Employees">Our Employees</a></li>
-        <li><a href="Previous Contracts">Previous Contracts</a></li>
-        <li><a href="Company Info">Company info</a></li>
+        <li><a href="#Company Info">Company Info</a></li> 
+        <li><a href="#Previous Contracts">Previous Contracts</a></li>
+        <li><a href="#Our Employees">Our Employees</a></li>       
+        <li><a href="#Contact Us">Contact Us</a></li>
+
       </ul>
     </div>
     <!--links to be added to flex container items-->
-  <h2>Company info</h2>
-    <h4>Talk about construction industry</h4>
-
-  <h2>Previous Contracts</h2>
-    <h4>Talk about previous work</h4>
+  <h2 id="Company Info">Company Info</h2>
+    <p>Founded in 1982, Infinite Construction started as a small time renovation company, after several years of satisfied clients Infinte Construction began to expand into the commercial and industrial works aswell as the domestic side. <br> Since 2010 Infinite Construction has had the pleasure to add their signature on some of the UK's most beautiful city skylines.</p>
+  <h2 id="Previous Contracts">Previous Contracts</h2>
+    <P></P>>
 
     <div class="photos">
       <div class="row">
         <div class="column">
           <img src="New1.jpg" alt="House" style="width:100%">
+          <h5>Morrison Ave, Cardiff,</h5>
         </div>
+
         <div class="column">
           <img src="New2.jpg" alt="Hotel" style="width:100%">
+          <h5>New Appartments, London, England</h5>
         </div>
         <div class="column">
           <img src="New3.jpg" alt="Hotel" style="width:100%">
+          <h5>Maldron Hotel, Manchester City, Manchester</h5>
         </div>
       </div>
     </div>
 
-  <h2>Our Employees</h2>
+  <h2 id="Our Employees">Our Employees</h2>
     <h4>Talk about employees</h4>
     <div class="employees">
       <div class="row">
         <div class="column">
           <img src="staff1.jpg" alt="Staffmember" style="width:100%">
-          John Lewis - Director
+            <h5>Nigel Duggan - Director</h5>
         </div>
+
         <div class="column">
           <img src="staff2.jpg" alt="Staffmember" style="width:100%">
+          <h5>Joanne Blythe - Director</h5>
         </div>
+
         <div class="column">
           <img src="staff3.jpg" alt="Staffmember" style="width:100%">
+          <h5>Anna Daniels - Project Manager</h5>
         </div>
+
         <div class="column">
           <img src="staff4.jpg" alt="Staffmember" style="width:100%">
+          <h5>James Godwin - Site Manager</h5>
         </div>
+
         <div class="column">
           <img src="staff5.jpg" alt="Staffmember" style="width:100%">
+          <h5>Rosie Hollings - Site Manager</h5>
         </div>
+
         <div class="column">
           <img src="staff6.jpg" alt="Staffmember" style="width:100%">
+          <h5>Ryan Gardener - Site Manager</h5>
         </div>
       </div>
     </div>
 
-  <h2>Contact Us</h2>
-    <h4>Talk about contact info</h4>
+  <h2 id="Contact Us">Contact Us</h2>
+    <p>Email : AnnaDaniels@InfiniteConstruction.com<br>
+       Telephone: 014952226661</p>>
       
 </body>
 <footer>©copyright My Company Website 2022</footer>
 </html>
 
 <!--photos added, css added, nav added -->
-<!-- add company name on photo, company info and employees in a row that turns into columns-->
+<!-- added company name on photo, company info-->
+<!-- Add info on employees and changes flex wrap-->

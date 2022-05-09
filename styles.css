@@ -1,3 +1,11 @@
+html { 
+  background: url(City3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .container {
   position: relative;
@@ -8,8 +16,21 @@
   /* Top right text */
 .top-right {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 100px;
+  right: 100px;
+  font-family: Holtwood One SC;
+  font-size: 45px;
+  -webkit-text-stroke: 2px black;
+  width: 500px;
+  border: solid rgb(0, 0, 0) 2px;
+  background:rgb(245, 255, 54)
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+  border: solid rgb(0, 0, 0) 2px;
+  background: rgb(245, 255, 54);
 }
 
 
@@ -26,18 +47,28 @@
     text-decoration: underline;
   }
 
+  h5 {
+   text-align: center;
+  
+  }
+
   
 
   .row {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-around;
   }
   
   .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      flex-direction: column;
+      max-height: 50%;
+      text-align: center;
+    }
 
   h4{
     display: flex;
@@ -55,14 +86,11 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
     width:100%;
   }
   
   li {
-    float: right;
       border-right: 1px solid #bbb;
   }
 
@@ -79,3 +107,4 @@
   li a:hover {
     background-color: rgb(0, 123, 210);
   }
+
